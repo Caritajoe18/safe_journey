@@ -1,0 +1,61 @@
+.calculator{
+    position: absolute;
+    top: 10%;
+    width: 40%;
+       
+    z-index: 5;
+    left: 30%;
+    top: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.calculator input{
+    padding: 1rem .5rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(14, 12, 12);
+    outline: none;
+}
+
+.calculator table{
+    width: 100%;
+}
+
+.calculator table td{
+   font-size: 1.6rem;
+   color: black;
+   padding: 1.5rem;
+   background-color: white;
+   border: 1px solid black;
+   width: 33%;
+   border-radius: 1rem;
+   text-align: center;
+   cursor: pointer;
+}
+
+.calculator table td:hover{
+    background-color: black;
+    color: white;
+    
+
+}
+
+.calculator .close-btn{
+    position: absolute;
+    top: -3%;
+    right: -3%;
+    border-radius: 100%;
+}
+
+.form-control{
+    background-color: black;
+    color: white;
+}

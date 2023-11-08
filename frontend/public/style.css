@@ -1,0 +1,152 @@
+body {
+    background:  rgb(129, 127, 127) !important;
+    font-family: Montserrat;
+}
+
+nav {
+    background: rgb(129, 127, 127) !important;
+    color: black;
+}
+
+.carousel-item img {
+    height: 35rem;
+}
+
+.carousel-item p {
+    font-size: 3rem;
+    font-weight: bolder;
+    position: absolute;
+    /* position makes the word to be placed on thae images  */
+    z-index: 5;
+    top: 25%;
+    left: 10%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://assets.choosemycar.com/vehicles/large/4903981_5590_493_vehicle-4903981-004-20230906-140630-4e326668f6d8c47b380dee541e7a66452c8fc572cc836313c58f7779053a9dce.jpg);
+    padding: 9rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.service i {
+    font-size: 3rem;
+
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.service p {
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn-dark {
+    background-color: rgb(20, 19, 19);
+    color: white;
+    width: 100%;
+    border: white;
+}
+
+/* .btn-primary:hover{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: white;
+} */
+
+
+.card {
+    margin-top: 1rem;
+
+}
+
+.card-img-top {
+    height: 15rem;
+}
+
+.card-text-description {
+    text-align: center;
+    color: brown;
+    font-weight: 90;
+    
+}
+
+
+footer {
+    background: black;
+    margin-top: 1rem;
+    border-top: 1px solid white;
+}
+
+.w {
+    padding: 1rem;
+    color: black;
+}
+
+.main-form {
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+.table {
+    color: white;
+}
+.table img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8px;
+}
+
+
+@media(max-width: 768px) {
+    .services {
+        flex-direction: column;
+
+    }
+
+    .carousel-item p {
+        font-size: 2rem;
+
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-item img {
+        height: 20rem;
+    }
+
+    .carousel-item p {
+        font-size: 1rem;
+        font-weight: bolder;
+        position: absolute;
+        /* position makes the word to be placed on thae images  */
+        z-index: 5;
+        top: 25%;
+        left: 10%;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+
+    }
+
+    /* .nav-item dropdown{
+    overflow: auto;
+} */
+
+}
